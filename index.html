@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Тест</h1>
 <section class="game">
     <div class="game__section main">
-        <div class="container">
+        <div class="container main__container">
             <picture>
                 <source
                         srcset="./images/main-img.png 1x, ./images/main-img@2x.png 2x"
@@ -20,19 +19,561 @@
                 <img
                         src="./images/main-img.png"
                         srcset="./images/main-img.png 1x, ./images/main-img@2x.png 2x"
-                        alt="Case image"
+                        alt=""
+                        class="absolute-bg"
                 />
             </picture>
+            <h1 class="main__title">Какой вы путешественник?</h1>
+            <p class="main__subtitle">Пусть всегда будет отпуск,  пусть всегда буду я!</p>
+            <p class="main__content">У каждого — свое идеальное путешествие. Кому-то нужны пляжи, кто-то без ума от гор, а кто-то предпочитает экстремальный туризм.</p>
+            <p class="main__content">Узнайте, какой вы путешественник, и получите лучший сценарий для отдыха в мини-игре.</p>
+            <button class="main__button">Играть</button>
         </div>
     </div>
     <div class="game__section first">
-        <div class="container">
-
+        <div class="container game-flex">
+            <div class="game-flex__item game-flex__text-content">
+                <div class="game-flex__head">
+                    <picture>
+                        <source
+                                srcset="./images/big-img-1.png 1x, ./images/big-img-1@2x.png 2x"
+                        />
+                        <img
+                                src="./images/big-img-1.png"
+                                srcset="./images/big-img-1.png 1x, ./images/big-img-1@2x.png 2x"
+                                alt=""
+                                class="game-flex__text-absolute-bg"
+                        />
+                    </picture>
+                    <p class="game-flex__head-text">Что вы возьмете<br/>с собой в отпуск?</p>
+                </div>
+                <div class="game-flex__footer">
+                    <a class="game-flex__footer-link game-flex__footer-link_1" href="#"><img src="./images/home_icon.svg" alt="" width="24"></a>
+                    <a class="game-flex__footer-link game-flex__footer-link_2" href="#"><img src="./images/location_icon.svg" alt="" width="24"></a>
+                    <button class="game-flex__footer-button">Собрать чемодан!</button>
+                    <a class="game-flex__footer-link game-flex__footer-link_3" href="#"><img src="./images/camera_icon.svg" alt="" width="24"></a>
+                </div>
+            </div>
+            <div class="game-flex__item game-flex__list">
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Купальник">
+                    <p class="game-flex__counter">1</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-1.png 1x, ./images/choose-one-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-1.png"
+                                    srcset="./images/choose-one-1.png 1x, ./images/choose-one-1@2x.png 2x"
+                                    alt=""
+                                    width="194"
+                                    height="174"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Купальник</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Большой рюкзак">
+                    <p class="game-flex__counter">2</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-2.png 1x, ./images/choose-one-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-2.png"
+                                    srcset="./images/choose-one-2.png 1x, ./images/choose-one-2@2x.png 2x"
+                                    alt=""
+                                    width="141"
+                                    height="141"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Большой рюкзак</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Удобная обувь/треккинговая обувь">
+                    <p class="game-flex__counter">3</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-3.png 1x, ./images/choose-one-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-3.png"
+                                    srcset="./images/choose-one-3.png 1x, ./images/choose-one-3@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Удобная обувь/<br/>треккинговая обувь</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Фотооаппарат/селфи-палка">
+                    <p class="game-flex__counter">4</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-4.png 1x, ./images/choose-one-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-4.png"
+                                    srcset="./images/choose-one-4.png 1x, ./images/choose-one-4@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Фотооаппарат/<br/>селфи-палка</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Спрей от насекомых">
+                    <p class="game-flex__counter">5</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-5.png 1x, ./images/choose-one-5@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-5.png"
+                                    srcset="./images/choose-one-5.png 1x, ./images/choose-one-5@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Спрей от насекомых</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Ноутбук/планшет">
+                    <p class="game-flex__counter">6</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-6.png 1x, ./images/choose-one-6@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-6.png"
+                                    srcset="./images/choose-one-6.png 1x, ./images/choose-one-6@2x.png 2x"
+                                    alt=""
+                                    width="161"
+                                    height="142"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Ноутбук/планшет</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Лыжи/борд">
+                    <p class="game-flex__counter">7</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-7.png 1x, ./images/choose-one-7@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-7.png"
+                                    srcset="./images/choose-one-7.png 1x, ./images/choose-one-7@2x.png 2x"
+                                    alt=""
+                                    width="145"
+                                    height="183"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Лыжи/борд</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Путеводитель">
+                    <p class="game-flex__counter">8</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-8.png 1x, ./images/choose-one-8@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-8.png"
+                                    srcset="./images/choose-one-8.png 1x, ./images/choose-one-8@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Путеводитель</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Куртка/толстовка/шапка">
+                    <p class="game-flex__counter">9</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-9.png 1x, ./images/choose-one-9@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-9.png"
+                                    srcset="./images/choose-one-9.png 1x, ./images/choose-one-9@2x.png 2x"
+                                    alt=""
+                                    width="102"
+                                    height="142"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Куртка/толстовка/шапка</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Аптечка">
+                    <p class="game-flex__counter">10</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-10.png 1x, ./images/choose-one-10@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-10.png"
+                                    srcset="./images/choose-one-10.png 1x, ./images/choose-one-10@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Аптечка</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Блокнот для заметок/рецептов">
+                    <p class="game-flex__counter">11</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-11.png 1x, ./images/choose-one-11@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-11.png"
+                                    srcset="./images/choose-one-11.png 1x, ./images/choose-one-11@2x.png 2x"
+                                    alt=""
+                                    width="136"
+                                    height="136"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Блокнот для заметок/<br/>рецептов</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input type="checkbox" name="choose-1" value="Спортивные часы/шагомер">
+                    <p class="game-flex__counter">12</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-12.png 1x, ./images/choose-one-12@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-12.png"
+                                    srcset="./images/choose-one-12.png 1x, ./images/choose-one-12@2x.png 2x"
+                                    alt=""
+                                    width="127"
+                                    height="128"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Спортивные часы/шагомер</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="game__section second">
-        <div class="container">
-
+        <div class="container game-flex">
+            <div class="game-flex__item game-flex__list">
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-1.png 1x, ./images/choose-two-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-1.png"
+                                    srcset="./images/choose-two-1.png 1x, ./images/choose-two-1@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Новые впечатления через аутентичную кухню страны, города">
+                        <p class="game-flex__counter">1</p>
+                        <p class="game-flex__list-content">Новые впечатления через аутентичную<br/>кухню страны, города</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-2.png 1x, ./images/choose-two-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-2.png"
+                                    srcset="./images/choose-two-2.png 1x, ./images/choose-two-2@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Прогулка по уютным улочкам города, знакомство с архитектурой, достопримечательностями и культурой">
+                        <p class="game-flex__counter">2</p>
+                        <p class="game-flex__list-content">Прогулка по уютным улочкам города,<br/>знакомство с архитектурой,<br/>достопримечательностями и культурой</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-3.png 1x, ./images/choose-two-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-3.png"
+                                    srcset="./images/choose-two-3.png 1x, ./images/choose-two-3@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Пляжный отдых! Солнце, шум моря, белый песок — идеальный отдых">
+                        <p class="game-flex__counter">3</p>
+                        <p class="game-flex__list-content">Пляжный отдых! Солнце, шум моря,<br/>белый песок — идеальный отдых</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-4.png 1x, ./images/choose-two-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-4.png"
+                                    srcset="./images/choose-two-4.png 1x, ./images/choose-two-4@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Лучше гор, могут быть только горы! Завораживающие горные пейзажи и природа">
+                        <p class="game-flex__counter">4</p>
+                        <p class="game-flex__list-content">Лучше гор, могут быть только горы!<br/>Завораживающие горные пейзажи и<br/>природа</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-5.png 1x, ./images/choose-two-5@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-5.png"
+                                    srcset="./images/choose-two-5.png 1x, ./images/choose-two-5@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Активное путешествие! Треккинг, велосипедные прогулки, рафтинг, банджи-джампинг, дайвинг, зиплайн и т.д.">
+                        <p class="game-flex__counter">5</p>
+                        <p class="game-flex__list-content">Активное путешествие! Треккинг,<br/>велосипедные прогулки, рафтинг,<br/>банджи-джампинг, дайвинг, зиплайн и<br/>т.д.</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-two-6.png 1x, ./images/choose-two-6@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-two-6.png"
+                                    srcset="./images/choose-two-6.png 1x, ./images/choose-two-6@2x.png 2x"
+                                    alt=""
+                                    width="348"
+                                    height="190"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <input type="radio" name="choose-2" value="Красивые фотографии с отдыха">
+                        <p class="game-flex__counter">6</p>
+                        <p class="game-flex__list-content">Красивые фотографии с отдыха</p>
+                    </div>
+                </div>
+            </div>
+            <div class="game-flex__item game-flex__text-content">
+                <div class="game-flex__head">
+                    <picture>
+                        <source
+                                srcset="./images/big-img-2.png 1x, ./images/big-img-2@2x.png 2x"
+                        />
+                        <img
+                                src="./images/big-img-2.png"
+                                srcset="./images/big-img-2.png 1x, ./images/big-img-2@2x.png 2x"
+                                alt=""
+                                class="game-flex__text-absolute-bg"
+                        />
+                    </picture>
+                    <p class="game-flex__head-text">Что для вас главное</br>в отдыхе?</p>
+                </div>
+                <div class="game-flex__footer">
+                    <a class="game-flex__footer-link game-flex__footer-link_1" href="#"><img src="./images/home_icon.svg" alt="" width="24"></a>
+                    <a class="game-flex__footer-link game-flex__footer-link_2" href="#"><img src="./images/location_icon.svg" alt="" width="24"></a>
+                    <button class="game-flex__footer-button">Выбрать локацию!</button>
+                    <a class="game-flex__footer-link game-flex__footer-link_3" href="#"><img src="./images/camera_icon.svg" alt="" width="24"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="game__section third">
+        <div class="container game-flex">
+            <div class="game-flex__item game-flex__text-content">
+                <div class="game-flex__head">
+                    <picture>
+                        <source
+                                srcset="./images/big-img-3.png 1x, ./images/big-img-3@2x.png 2x"
+                        />
+                        <img
+                                src="./images/big-img-3.png"
+                                srcset="./images/big-img-3.png 1x, ./images/big-img-3@2x.png 2x"
+                                alt=""
+                                class="game-flex__text-absolute-bg"
+                        />
+                    </picture>
+                    <p class="game-flex__head-text">С кем поедете?</p>
+                </div>
+                <div class="game-flex__footer">
+                    <a class="game-flex__footer-link game-flex__footer-link_1" href="#"><img src="./images/home_icon.svg" alt="" width="24"></a>
+                    <a class="game-flex__footer-link game-flex__footer-link_2" href="#"><img src="./images/location_icon.svg" alt="" width="24"></a>
+                    <button class="game-flex__footer-button">Собрать компанию!</button>
+                    <a class="game-flex__footer-link game-flex__footer-link_3" href="#"><img src="./images/camera_icon.svg" alt="" width="24"></a>
+                </div>
+            </div>
+            <div class="game-flex__item game-flex__list">
+                <div class="game-flex__list-item">
+                    <input class="absolute-block" type="radio" name="choose-3" value="С семьей, куда же без нее ">
+                    <p class="game-flex__counter">1</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-three-1.png 1x, ./images/choose-three-1@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-three-1.png"
+                                    srcset="./images/choose-three-1.png 1x, ./images/choose-three-1@2x.png 2x"
+                                    alt=""
+                                    width="338"
+                                    height="256"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">С семьей, куда<br/>же без нее </p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input class="absolute-block" type="checkbox" name="choose-1" value="Большой рюкзак">
+                    <p class="game-flex__counter">2</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-three-2.png 1x, ./images/choose-three-2@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-three-2.png"
+                                    srcset="./images/choose-three-2.png 1x, ./images/choose-three-2@2x.png 2x"
+                                    alt=""
+                                    width="331"
+                                    height="295"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Большой рюкзак</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input class="absolute-block" type="checkbox" name="choose-1" value="Удобная обувь/треккинговая обувь">
+                    <p class="game-flex__counter">3</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-three-3.png 1x, ./images/choose-three-3@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-three-3.png"
+                                    srcset="./images/choose-three-3.png 1x, ./images/choose-three-3@2x.png 2x"
+                                    alt=""
+                                    width="285"
+                                    height="294"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Удобная обувь/<br/>треккинговая обувь</p>
+                    </div>
+                </div>
+                <div class="game-flex__list-item">
+                    <input class="absolute-block" type="checkbox" name="choose-1" value="Фотооаппарат/селфи-палка">
+                    <p class="game-flex__counter">4</p>
+                    <div class="game-flex__list-head">
+                        <picture>
+                            <source
+                                    srcset="./images/choose-one-4.png 1x, ./images/choose-one-4@2x.png 2x"
+                            />
+                            <img
+                                    src="./images/choose-one-4.png"
+                                    srcset="./images/choose-one-4.png 1x, ./images/choose-one-4@2x.png 2x"
+                                    alt=""
+                                    width="147"
+                                    height="147"
+                            />
+                        </picture>
+                    </div>
+                    <div class="game-flex__list-footer">
+                        <p class="game-flex__list-content">Фотооаппарат/<br/>селфи-палка</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="game__section fourth">
