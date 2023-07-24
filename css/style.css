@@ -682,3 +682,322 @@ img {
 .game-flex__footer-link_result-2 img {
     width: 40px;
 }
+
+@media (max-width: 1700px) {
+    .container {
+        max-width: 1340px;
+    }
+
+    .main__container {
+        padding-top: 59px;
+    }
+
+    .main__title {
+        font-size: 56px;
+        padding: 20px 0;
+        max-width: 1210px;
+    }
+
+    .main__subtitle {
+        font-size: 29px;
+        margin: 36px 0 32px 67px;
+    }
+
+    .main__content {
+        font-size: 19px;
+        margin-left: 67px;
+        margin-bottom: 32px;
+    }
+
+    .main__button {
+        border-radius: 80px;
+        font-size: 24px;
+        max-width: 264px;
+        margin-left: 67px;
+        padding: 22px 0;
+        margin-bottom: 60px;
+    }
+
+    .game-flex__text-content {
+        max-width: 604px;
+        padding: 28px 25px;
+    }
+
+    .first .game-flex__text-content {
+        margin-right: 17px;
+    }
+
+    .game-flex__head {
+        height: 610px;
+    }
+
+    .game-flex__head-text {
+        font-size: 35px;
+        padding: 53px 0 0 42px;
+    }
+
+    .game-flex__footer {
+        border-radius: 48px;
+        padding: 15px 0;
+        margin-top: 17px;
+    }
+
+    .game-flex__footer-button {
+        border-radius: 80px;
+        font-size: 20px;
+        padding: 9px 18px;
+    }
+
+    .game-flex__footer-link {
+        width: 52px;
+        height: 52px;
+    }
+
+    .game-flex__footer-link img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .first .game-flex__footer-link_1 {
+        margin-left: 18px;
+        margin-right: 8px;
+    }
+
+    .first .game-flex__footer-link_2 {
+        margin-right: 20px;
+    }
+
+    .first .game-flex__footer-link_3 {
+        margin-left: 80px;
+    }
+
+    .first .game-flex__list {
+        grid-template-columns: repeat(3, 182px);
+        grid-column-gap: 23px;
+        grid-row-gap: 3px;
+        border-radius: 52px;
+        padding: 27px 33px 7px;
+    }
+
+    .first .game-flex__counter {
+        top: 9px;
+        left: 13px;
+        font-size: 18px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .first .game-flex__list-content {
+        font-size: 10px;
+    }
+
+    .first .game-flex__list-head {
+        height: 144px;
+    }
+
+    .first .game-flex__list-head img {
+        width: 122px;
+    }
+
+    .first .game-flex__list-footer {
+        min-height: 24px;
+    }
+
+    .first .game-flex__list-head, .first .game-flex__list-footer {
+        border-radius: 24px;
+    }
+
+    .second .game-flex__list {
+        grid-template-columns: repeat(2, 284px);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        margin-right: 17px;
+        padding: 47px 33px 8px 37px;
+    }
+
+    .second .game-flex__list-head img {
+        width: 275px;
+    }
+
+    .second  .game-flex__list-head {
+        height: 144px;
+    }
+
+    .second .game-flex__counter {
+        width: 31px;
+        height: 31px;
+        font-size: 12px;
+    }
+
+    .second .game-flex__list-content {
+        font-size: 10px;
+    }
+
+    .second .game-flex__footer-link_3 {
+        margin-left: 57px;
+    }
+
+    .third .game-flex__list-head {
+        height: 259px;
+    }
+
+    .third .game-flex__list-head img {
+        width: 238px;
+    }
+
+    .third .game-flex__list {
+        grid-template-columns: repeat(2, 274px);
+        grid-row-gap: 29px;
+        padding: 44px 43px 32px;
+    }
+
+    .third .game-flex__list-content {
+        font-size: 13px;
+        max-width: 196px;
+    }
+
+    .third .game-flex__footer-link_3 {
+        margin-left: 28px;
+    }
+
+    .third .game-flex__list-svg {
+        width: 52px;
+        height: 52px;
+    }
+
+    .game-flex__list-head_third-4 img {
+        top: 61px;
+        left: 6px;
+    }
+
+    .game-flex__list-head_third-3 img {
+        top: 35px;
+        left: 10px;
+    }
+
+    .game-flex__list-head_third-2 img {
+        top: 56px;
+        left: 36px;
+    }
+
+    .game-flex__list-head_third-1 img {
+        top: 74px;
+        left: 9px;
+    }
+
+    .fourth .game-flex__list-item:nth-last-child(-n+2) {
+        max-width: 291px;
+        height: 282px;
+    }
+
+    .fourth .game-flex__list-item:nth-child(4) {
+        margin-right: 19px;
+    }
+
+    .fourth .game-flex__list-item {
+        max-width: 192px;
+        height: 270px;
+    }
+
+    .fourth .game-flex__list-item:nth-child(-n+2) {
+        margin-right: 13px;
+        margin-bottom: 31px;
+    }
+
+    .fourth .game-flex__list {
+        padding: 27px 28px 36px;
+    }
+
+    .fourth .game-flex__footer-link_3 {
+        margin-left: 50px;
+    }
+
+    .fourth .game-flex__list-item:nth-last-child(-n+2) .game-flex__list-content {
+        font-size: 16px;
+    }
+
+    .fourth .game-flex__list-content {
+        line-height: 1.4;
+        font-size: 14px;
+    }
+
+    .game-flex__list-head_4-small {
+        bottom: -54px;
+        width: 190px;
+        height: 190px;
+    }
+
+    .game-flex__list-head_4-big {
+        bottom: -10px;
+    }
+
+    .result__item {
+        margin-bottom: 97px;
+    }
+
+    .result__item-wrapper {
+        padding: 46px 73px 98px;
+    }
+
+    .result__title {
+        font-size: 64px;
+        margin-bottom: 44px;
+    }
+
+    .result__content-text {
+        border-radius: 24px;
+        margin-left: 23px;
+        max-width: 781px;
+    }
+
+    .result__content-text-wrapper {
+        padding: 34px 20px 8px 42px;
+    }
+
+    .result__content-text h2 {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+
+    .result__content-text p {
+        font-size: 15px;
+        margin-bottom: 13px;
+        line-height: 1.7;
+    }
+
+    .result__content-text a {
+        font-size: 16px;
+    }
+
+    .result__content img {
+        max-width: 380px;
+    }
+
+    .result__footer {
+        border-radius: 80px;
+        bottom: -69px;
+        max-width: 946px;
+        padding: 28px 0px;
+    }
+
+    .result__footer-wrapper {
+        border-radius: 80px;
+        max-width: 890px;
+        padding: 20px 0;
+    }
+
+    .result__button {
+        border-radius: 80px;
+        font-size: 20px;
+        padding: 0 17px;
+    }
+
+    .game-flex__footer-link_result-1 {
+        margin-left: 40px;
+        margin-right: 8px;
+    }
+
+    .game-flex__footer-link_result-2 {
+        margin-right: 52px;
+    }
+}
