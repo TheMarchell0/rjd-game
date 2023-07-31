@@ -656,6 +656,8 @@ img {
 
 .result__button {
     border-radius: 100px;
+    display: flex;
+    align-items: center;
     color: #FF4450;
     text-align: center;
     font-size: 25px;
@@ -756,6 +758,16 @@ img {
     .game-flex__footer-link img {
         width: 19px;
         height: 19px;
+    }
+
+    .game-flex__footer-link img {
+        width: 19px;
+        height: 19px;
+    }
+
+    .result__footer  .game-flex__footer-link_result-2 img {
+        width: 28px;
+        height: 28px;
     }
 
     .first .game-flex__footer-link_1 {
