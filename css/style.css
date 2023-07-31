@@ -228,6 +228,7 @@ img {
     height: 100%;
     appearance: none;
     cursor: pointer;
+    z-index: 10;
 }
 
 .game-flex__list-item input:checked+.game-flex__counter {
@@ -626,7 +627,7 @@ img {
    margin-bottom: 15px;
 }
 
-.result__content-text a {
+.result__content-text b {
     color: #FF4450;
     font-size: 20px;
     font-weight: 700;
@@ -977,7 +978,7 @@ img {
         line-height: 1.7;
     }
 
-    .result__content-text a {
+    .result__content-text b {
         font-size: 16px;
     }
 
